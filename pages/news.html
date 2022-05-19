@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieRise Cinema/News</title>
+    <link rel="stylesheet" href="../styles/base.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/media.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="content container">
+                <a href="/" class="logo">
+                    MOVIE<span>RISE</span>
+                    <span class="cinema">CINEMA</span>
+                </a>
+
+                <ul class="nav-list">
+                    <li class="active">
+                        <a href="#!" class="nav-list__link">Home</a>
+                    </li>
+                    <li>
+                        <a href="pages/about.html" class="nav-list__link">About us</a>
+                    </li>
+                    <li>
+                        <a href="pages/news.html" class="nav-list__link">News</a>
+                    </li>
+                    <li>
+                        <a href="pages/contacts.html" class="nav-list__link">Contacts</a>
+                    </li>
+                </ul>
+
+                <div class="nav-menu">
+                    <div @click="toggleMenu()" class="menu-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                            class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                            <path
+                                d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                        </svg>
+                    </div>
+
+                    <ul class="nav-menu__list" :class="menuClass">
+                        <li class="active">
+                            <a href="#!" class="nav-list__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="pages/about.html" class="nav-list__link">About us</a>
+                        </li>
+                        <li>
+                            <a href="pages/news.html" class="nav-list__link">News</a>
+                        </li>
+                        <li>
+                            <a href="pages/contacts.html" class="nav-list__link">Contacts</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="nav-additional">
+                    <a href="#!" class="search" @click="toggleModalSearch()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#ffffffbf"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg>
+                    </a>
+
+                    <div class="nav-additional__input">
+                        <input type="text" placeholder="Search">
+                        <button class="ovaerlay-search__btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="user">
+                        <img src="images/user-img/default.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="overlay-search" :class="modalClass">
+            <div>
+                <input autofocus type="text" placeholder="Search">
+                <button class="ovaerlay-search__btn" @click="toggleModalSearch()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                        class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                </button>
+            </div>
+            <button class="overlay-search__close" @click="toggleModalSearch()">x</button>
+        </div>
+    </header>
+    
+    <script src="../scripts/vue.js"></script>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>

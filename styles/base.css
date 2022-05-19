@@ -1,0 +1,106 @@
+:root {
+  --main: #0f0e0d;
+  --extra: #393F47;
+  --white: #fff;
+  --black: #000;
+}
+
+@font-face {
+  font-family: "Monsterrat";
+  src: url('../fonts/montserrat/Montserrat-Black.ttf');
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Monsterrat";
+  src: url('../fonts/montserrat/Montserrat-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Monsterrat";
+  src: url('../fonts/montserrat/Montserrat-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Monsterrat";
+  src: url('../fonts/montserrat/Montserrat-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Monsterrat";
+  src: url('../fonts/montserrat/Montserrat-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Monsterrat";
+  src: url('../fonts/montserrat/Montserrat-Thin.ttf');
+  font-weight: 100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Monsterrat";
+  font-weight: 400;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+p, ul, ol {
+  margin-bottom: 0;
+}
+
+button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+body {
+  background: var(--main);
+  color: var(--white);
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}

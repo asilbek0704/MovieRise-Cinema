@@ -1,0 +1,1386 @@
+@media (max-width: 1200px) {
+    .nav-list li {
+        margin: 0 25px;
+    }
+
+    .logo {
+        width: 210px;
+    }
+
+    .card-banner {
+        height: 300px;
+    }
+
+    .cards .card {
+        height: 395px;
+    }
+
+    .card-title {
+        font-weight: 400;
+    }
+
+    .cards .card .rating {
+        font-size: 15px;
+    }
+
+    .cards .card .quality .block-1, .cards .card .quality .block-2 {
+        font-size: 13px;
+        width: 33px;
+        height: 28px;
+    }
+
+    .cards .card .time svg {
+        margin-right: 5px;
+        width: 14px;
+        height: 14px;
+    }
+
+    .cards .card .time {
+        font-size: 15px;
+    }
+
+    .card-banner .book {
+        font-size: 11px;
+        padding: 8px;
+    }
+
+    .main-movie .container {
+        justify-content: center;
+    }
+
+
+    .main-movie .container {
+        justify-content: center;
+    }
+
+
+    .logo {
+        font-size: 35px;
+    }
+
+    .logo span.cinema {
+        font-size: 20px;
+    }
+
+    .footer_main-content__list li {
+        margin-left: 35px;
+    }
+
+    .footer_contacts__main a {
+        font-size: 16px;
+    }
+
+
+    /* PAGE About us start */
+    .superiority {
+        height: 340px;
+    }
+
+    .technologies {
+        height: 240px;
+    }
+
+    .tickets div {
+        height: 105px;
+    }
+
+    /* PAGE About us end */
+
+}
+
+@media (max-width: 992px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card-banner .book {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .nav-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    nav.nav .content {
+        flex-wrap: wrap-reverse;
+    }
+
+    .nav-additional {
+        width: 100%;
+    }
+
+    .logo {
+        margin-top: 40px;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .nav-additional__input {
+        display: block;
+    }
+
+    /* PAGE HOME end */
+
+
+    /* PAGE About us start */
+    .superiority {
+        height: 340px;
+    }
+
+    .technologies {
+        height: 240px;
+    }
+
+    .tickets div {
+        height: 105px;
+    }
+
+    .about-categories h2 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .about-weare-subtitle {
+        font-size: 17px;
+        font-weight: 100;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .about-weare-text span {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: 0px;
+    }
+
+    .about-facilities-subtitle {
+        margin-bottom: 25px;
+    }
+
+    .superiority {
+        margin-bottom: 60px;
+    }
+
+    .technologies {
+        margin-bottom: 60px;
+    }
+
+    .about-categories {
+        padding: 15px 0;
+    }
+
+    .superiority {
+        height: 300px;
+    }
+
+    .technologies {
+        height: 210px;
+    }
+
+    .tickets div {
+        height: 85px;
+    }
+
+    /* PAGE About us end */
+
+
+
+    /* PAGE film start */
+
+    .film_about-img {
+        width: 230px;
+    }
+
+    .film-info__title {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .main-movie__about-info .time, .date, .imdb-rating, .main-movie__about-info .rating, .film-info .rating {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .film-info .rating p {
+        font-size: 18px;
+    }
+
+    .imdb-rating img {
+        width: 40px;
+    }
+
+    .score {
+        font-size: 17px;
+    }
+
+    .film-info .date {
+        font-size: 17px;
+    }
+
+    .film-info .duration_country, .film-info .duration_country .time {
+        font-size: 16px;
+    }
+
+    .genres {
+        margin-bottom: 15px;
+    }
+
+    .genre {
+        padding: 7px 11px;
+        font-size: 13px;
+    }
+
+    .briefly {
+        width: 380px;
+        text-align: justify;
+    }
+
+    .genre:not(:last-of-type) {
+        margin-right: 15px;
+    }
+
+    .film_trailer h2 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .creator_title, .casts_title {
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 24px;
+        width: 300px;
+    }
+
+    .creator_text, .casts_text {
+        font-size: 17px;
+    }
+
+    .film_trailer-video {
+        width: 100%;
+        height: 170px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+
+    .booking-details {
+        padding: 30px 0;
+        justify-content: space-around;
+        flex-wrap: wrap-reverse;
+    }
+
+    .booking-details__dates h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .booking-details__hall h3, .booking-details__time h3 {
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .booking-details__month {
+        font-size: 12px;
+    }
+
+    .booking-details__day {
+        font-size: 21px;
+    }
+
+    .booking-details__weekday {
+        font-size: 12px;
+    }
+
+    .booking-details__date div {
+        padding: 4px 21px;
+    }
+
+    .halls-select {
+        width: 370px;
+    }
+
+    .halls-select, .time-select {
+        font-size: 18px;
+        padding: 14px;
+    }
+
+    .ordinary-table {
+        width: 100%;
+    }
+
+    .booking-details__hall {
+        margin-bottom: 30px;
+    }
+
+    .ordinary-table .seats button svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ordinary-table {
+        padding: 50px 0 25px;
+    }
+
+    .seat-info button svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* PAGE film end */
+}
+
+@media (max-width: 768px) {
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-banner {
+        height: 340px;
+    }
+
+    .cards .card {
+        height: 440px;
+    }
+
+    .footer_main-content__list {
+        display: none;
+    }
+
+    .footer_main-content {
+        justify-content: center;
+    }
+
+    .footer_contacts {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer_contacts__main {
+        align-items: center;
+    }
+
+    .footer_contacts__main a {
+        margin-bottom: 25px;
+    }
+
+    .footer_extra-info {
+        flex-direction: column-reverse;
+    }
+
+    .footer_extra-info p {
+        margin-top: 20px;
+    }
+
+    .logo {
+        margin-top: 0;
+    }
+
+    /* PAGE HOME end */
+
+
+
+    /* PAGE contacts start */
+    .contact_form {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contact_form-fill {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .map {
+        width: 100%;
+    }
+
+    /* PAGE contacts end */
+
+
+    /* PAGE About us start */
+    .tickets div::after {
+        font-size: 18px;
+    }
+
+    .about-categories .about-weare, .about-categories .facilities {
+        padding: 15px 0;
+    }
+
+    .superiority div:first-of-type {
+        grid-area: 1/1/3/4;
+    }
+
+    .superiority div:nth-of-type(2) {
+        grid-area: 1/4/2/8;
+    }
+
+    .superiority div:last-of-type {
+        grid-area: 2/4/3/8;
+    }
+
+    .tickets div {
+        height: 70px;
+    }
+
+    .technologies {
+        height: 160px;
+    }
+
+    .superiority {
+        height: 210px;
+    }
+
+    .about-weare-subtitle {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .about-weare-text span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .about-categories h2 {
+        margin-bottom: 15px;
+    }
+
+    .superiority {
+        grid-template: repeat(2, 1fr) / repeat(7, 1fr);
+    }
+
+    /* PAGE About us end */
+
+
+
+    /* PAGE film start */
+
+    .film-info__title {
+        font-size: 20px;
+    }
+
+    .film-info .rating p {
+        font-size: 17px;
+    }
+
+    .imdb-rating img {
+        width: 35px;
+    }
+
+    .score {
+        font-size: 16px;
+    }
+
+    .main-movie__about-info .time, .date, .imdb-rating, .main-movie__about-info .rating, .film-info .rating {
+        font-size: 15px;
+    }
+
+    .film-info .date {
+        font-size: 16px;
+    }
+
+    .film-info .duration_country, .film-info .duration_country .time {
+        font-size: 15px;
+    }
+
+    .briefly {
+        width: 290px;
+    }
+
+    .genre:not(:last-of-type) {
+        margin-bottom: 10px;
+    }
+
+    .genres {
+        margin-bottom: 5px;
+        width: 290px;
+    }
+
+    .genre {
+        padding: 9px 15px;
+        font-size: 14px;
+    }
+
+    .film_about-img {
+        width: 235px;
+    }
+
+    .imdb-rating {
+        margin-left: 10px;
+    }
+
+    .main-movie__about-info .time, .date, .imdb-rating, .main-movie__about-info .rating, .film-info .rating {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .film-info .date {
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+
+    .film-info .duration_country, .film-info .duration_country .time {
+        font-weight: 300;
+    }
+
+    .film-info .duration_country {
+        margin-bottom: 20px;
+    }
+
+    .genres {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .film-info .rating .star svg {
+        width: 18px;
+        height: 18px;
+    }
+
+
+    .film_trailer-info {
+        flex-wrap: wrap;
+    }
+
+    .film_trailer-descr {
+        width: 100%;
+    }
+
+    .hall-type .top-seats, .hall-type .side-seats {
+        gap: 10px 10px;
+        margin-bottom: 30px;
+    }
+
+    .seat-info__free, .seat-info__selected, .seat-info__reserved {
+        font-size: 13px;
+    }
+
+    .seat-info__free button, .seat-info__selected button, .seat-info__reserved button {
+        margin-right: 10px;
+    }
+
+    .total-pay__title {
+        font-size: 16px;
+    }
+
+    .total-pay__text {
+        font-size: 24px;
+    }
+
+    .total-pay__btn {
+        padding: 12px 20px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .film_trailer-video {
+        height: 190px;
+        margin-bottom: 40px;
+    }
+
+    .creator_title, .casts_title {
+        letter-spacing: 0;
+        line-height: 26px;
+        width: 320px;
+        text-align: justify;
+    }
+
+    .booking-details__hall h3, .booking-details__time h3 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .booking-details__dates h3 {
+        margin-bottom: 10px;
+    }
+
+    .halls-select, .time-select {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .halls-select {
+        width: 225px;
+    }
+
+    .ordinary-table .seats button svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .ordinary-table {
+        padding: 35px 0 10px;
+    }
+
+    .ordinary-table .seat-info button svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .lux-table .seats button svg {
+        width: 32px;
+        height: 32px;
+    }
+
+    .lux-table {
+        width: 530px;
+        padding: 50px 0 10px;
+    }
+
+
+    /* PAGE film end */
+
+}
+
+@media (max-width: 576px) {
+    .card-banner {
+        height: 280px;
+    }
+
+    .cards .card {
+        height: 400px;
+    }
+
+    .card-banner {
+        margin-bottom: 0;
+    }
+
+    .card-banner .book {
+        padding: 10px;
+        width: max-content;
+    }
+
+    .now-playing, .coming-soon {
+        padding: 40px 0;
+    }
+
+    .films-category {
+        font-size: 32px;
+    }
+
+    /* PAGE HOME end */
+
+
+
+    /* PAGE contacts start */
+    /* PAGE contacts end */
+
+
+
+    /* PAGE About us start */
+
+    .about-main-content .title {
+        font-size: 50px;
+        letter-spacing: 2px;
+    }
+
+    .technologies {
+        grid-template: repeat(4, 1fr) / repeat(1, 1fr);
+        gap: 20px 20px;
+    }
+
+    .tickets div {
+        width: 45%;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+
+    .about-facilities-subtitle {
+        font-size: 21px;
+    }
+
+    .about-weare-subtitle {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .about-weare-text span {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .technologies {
+        height: auto;
+    }
+
+    .tickets div {
+        height: 60px;
+    }
+
+    .about-categories .about-weare, .about-categories .facilities {
+        padding: 10px 0;
+    }
+
+    .about-weare-subtitle {
+        font-weight: 300;
+    }
+
+    .technologies {
+        margin-bottom: 40px;
+    }
+
+    .superiority {
+        margin-bottom: 40px;
+    }
+
+    .about-categories h2 {
+        font-size: 23px;
+    }
+
+    /* PAGE About us end */
+
+
+
+    /* PAGE film start */
+
+    .lux-table {
+        width: 100%;
+        padding: 40px 0 5px;
+    }
+
+    .lux-table .seats {
+        margin-bottom: 20px;
+    }
+
+    .vip-table {
+        width: 100%;
+    }
+
+    /* PAGE film end */
+}
+
+@media (max-width: 500px) {
+    .logo {
+        margin-top: 30px;
+    }
+
+    .films-category {
+        margin-bottom: 35px;
+    }
+
+    .films-category {
+        font-size: 27px;
+    }
+
+    .cards {
+        display: none;
+    }
+
+    .cards-slider {
+        display: block;
+    }
+
+    .now-playing, .coming-soon {
+        padding: 20px 0;
+    }
+
+    .films {
+        padding: 30px 0;
+    }
+
+
+    .main-movie__about-title {
+        font-size: 45px;
+    }
+
+    .main-movie__about-title span {
+        font-size: 30px;
+    }
+
+    .main-movie__about-descr {
+        font-size: 16px;
+        line-height: 26px;
+        margin: 0 auto 25px;
+    }
+
+    .main-movie__about-company {
+        width: 120px;
+        height: 30px;
+    }
+
+    .main-movie__about-info .time, .date, .imdb-rating, .main-movie__about-info .rating, .film-info .rating {
+        font-size: 16px;
+    }
+
+    .main-movie__about-info .time svg, .date svg, .imdb-rating img {
+        margin-right: 8px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .score {
+        font-size: 19px;
+    }
+
+    .main-movie__about-info .rating p {
+        font-size: 20px;
+    }
+
+    .main-movie__about .book {
+        font-size: 16px;
+    }
+
+    .imdb-rating {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .main-movie__about-info .rating .star svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .main-movie__about .imdb-rating img {
+        width: 35px;
+        height: auto;
+    }
+
+    .nav-menu__list {
+        background: #0f0e0ddb;
+    }
+
+    /* PAGE HOME end */
+
+
+
+    /* PAGE contacts start */
+    .contact_form-fill__name, .contact_form-fill__email {
+        width: 100%;
+    }
+
+    .contact_form-title {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .map-title {
+        margin-bottom: 20px;
+    }
+
+    .contacts-main-content .title {
+        font-size: 50px;
+        letter-spacing: 2px;
+    }
+
+    /* PAGE contacts end */
+
+
+    /* PAGE Films start */
+    .total-pay__btn {
+        padding: 12px 20px;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 7px 0;
+        font-size: 15px;
+        font-weight: 500;
+        width: 130px;
+    }
+
+
+    .film {
+        height: 75vh;
+        padding: 75px 0;
+    }
+
+    .film-info {
+        margin-left: 0;
+    }
+
+    .film_about-content {
+        position: relative;
+        padding: 40px 10px;
+    }
+
+    .film_about-img {
+        margin-right: 0;
+    }
+
+    .film_about-img {
+        width: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        right: 0;
+        bottom: 0;
+    }
+
+    .film_about-img::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: #00000093;
+        border-radius: 10px;
+    }
+
+    .film-info {
+        /* margin-left: 15px; */
+        margin-left: 0;
+    }
+
+    .film-info__title {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .film-info .rating p {
+        font-size: 16px;
+    }
+
+    .film-info .rating .star svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .film-info .date {
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .film-info .duration_country, .film-info .duration_country .time {
+        font-size: 14px;
+    }
+
+    .film-info .duration_country {
+        margin-bottom: 15px;
+    }
+
+    .genre {
+        padding: 7px 12px;
+    }
+
+    .briefly {
+        text-align: center;
+        letter-spacing: 1px;
+        line-height: 18px;
+    }
+
+    .film_trailer-video {
+        margin-bottom: 30px;
+    }
+
+    .creator_title, .casts_title {
+        line-height: 24px;
+        width: auto;
+    }
+
+    span.rating {
+        margin-left: 0;
+    }
+
+    .score {
+        font-size: 17px;
+    }
+
+    .main-movie__about-info .time, .date, .imdb-rating, .main-movie__about-info .rating, .film-info .rating {
+        font-size: 14px;
+    }
+
+    .main-movie__about-info .time svg, .date svg, .imdb-rating img {
+        margin-right: 5px;
+        width: 28px;
+        height: 18px;
+    }
+
+    .genre:not(:last-of-type) {
+        margin-right: 10px;
+    }
+
+    .film_trailer-video {
+        margin-right: 0;
+    }
+
+    .creator_text, .casts_text {
+        font-size: 16px;
+    }
+
+    .creator_title, .casts_title {
+        font-size: 15px;
+    }
+
+
+    .film-info .rating p {
+        margin-right: 5px;
+    }
+
+    .film-info .rate {
+        justify-content: center;
+    }
+
+    .briefly {
+        font-size: 13px;
+    }
+
+    .film_trailer {
+        padding: 40px 0;
+    }
+
+    .creator_text, .casts_text {
+        margin-right: 15px;
+        letter-spacing: 1px;
+    }
+
+    .film_trailer-descr {
+        margin-left: 0;
+    }
+
+    .creator {
+        margin-bottom: 25px;
+    }
+
+    .creator, .casts {
+        justify-content: flex-start;
+    }
+
+    .time {
+        font-size: 15px;
+    }
+
+    .duration_country {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .booking-details__time {
+        margin-bottom: 20px;
+    }
+
+
+
+    /* PAGE Films end */
+
+}
+
+@media (max-width: 430px) {
+    .nav-additional__input input {
+        padding: 6px 70px 6px 10px;
+        width: 160px;
+        font-size: 15px;
+    }
+
+    .nav-additional__input button {
+        padding: 0px 8px;
+    }
+
+    .user {
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .nav-additional__input button svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .nav-additional__input input {
+        padding: 6px 70px 6px 10px;
+        width: 160px;
+        font-size: 15px;
+    }
+
+    .nav-additional__input button {
+        padding: 0px 8px;
+    }
+
+    .user {
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    .logo span.cinema {
+        font-size: 18px;
+    }
+
+    .nav-menu {
+        margin-top: 30px;
+    }
+
+    .films-category {
+        font-size: 20px;
+    }
+
+    .films-category {
+        font-size: 20px;
+    }
+
+    .footer_contacts {
+        padding: 30px 0 25px;
+    }
+
+    .footer_extra-info p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .payment-cards img {
+        width: 260px;
+    }
+
+
+    .footer_contacts__main a {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .footer_contacts__main a svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .footer_contacts__main a:last-of-type svg {
+        width: 23px;
+        height: 23px;
+    }
+
+    .footer_contacts__main a:last-of-type {
+        margin-bottom: 35px;
+    }
+
+
+
+
+    .main-movie__about-company {
+        width: 100px;
+        height: 25px;
+    }
+
+    .main-movie__about-title {
+        font-size: 32px;
+    }
+
+    .main-movie__about-title span {
+        font-size: 22px;
+    }
+
+    .main-movie__about-descr {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 0 auto 20px;
+    }
+
+    .imdb-rating {
+        margin-left: 10px;
+    }
+
+    .main-movie__about .book {
+        font-size: 15px;
+    }
+
+    .main-movie__about-info>span:nth-child(2) {
+        margin-right: 0;
+    }
+
+    span.rating {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    .main-movie__about-info .time, .date, .imdb-rating, .main-movie__about-info .rating, .film-info .rating {
+        margin-bottom: 10px;
+    }
+
+    .main-movie__about-title {
+        margin-bottom: 10px;
+    }
+
+    .main-movie__about .book {
+        padding: 8px 12px;
+    }
+
+    .main-movie__about {
+        width: auto;
+        padding: 30px 0;
+    }
+
+    .nav-menu__list li a {
+        font-size: 16px;
+    }
+
+    /* PAGE HOME end */
+
+
+
+    /* PAGE contacts start */
+    .contact_form-title {
+        font-size: 27px;
+    }
+
+    .contacts-main-content {
+        height: 65vh;
+    }
+
+    /* PAGE contacts end */
+
+
+
+    /* PAGE About us start */
+
+    .about-main-content {
+        height: 65vh;
+    }
+
+    .about-weare-text span {
+        margin: 5px 0;
+    }
+
+    .about-weare-subtitle {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .about-categories h2 {
+        font-size: 17px;
+    }
+
+    .about-weare-text span {
+        line-height: 20px;
+    }
+
+    .about-weare-subtitle {
+        font-weight: 100;
+    }
+
+    .about-weare-subtitle {
+        margin-bottom: 5px;
+    }
+
+    .about-weare-text span {
+        font-weight: 100;
+    }
+
+    .superiority {
+        grid-template: repeat(4, 1fr) / repeat(7, 1fr);
+    }
+
+    .superiority div:first-of-type {
+        grid-area: 1/2/3/7;
+    }
+
+    .superiority div:first-of-type img {
+        object-fit: contain;
+    }
+
+    .superiority div:nth-of-type(2) {
+        grid-area: 3/1/4/8;
+    }
+
+    .superiority div:last-of-type {
+        grid-area: 4/1/5/8;
+    }
+
+    .superiority {
+        height: 290px;
+    }
+
+    .about-facilities-subtitle {
+        font-size: 17px;
+    }
+
+    .tickets div {
+        width: 75%;
+        margin-bottom: 25px;
+    }
+
+    .tickets div {
+        height: 70px;
+    }
+
+    .about-facilities-subtitle {
+        margin-bottom: 15px;
+    }
+
+    .superiority {
+        gap: 10px;
+    }
+
+    /* PAGE About Us end */
+
+
+
+    /* PAGE Films start */
+
+    .seat-info button svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .lux-table .seats button svg {
+        width: 24px;
+        height: 22px;
+    }
+
+    .lux-table .seat-info__free, .seat-info__selected, .seat-info__reserved,
+    .vip-table .seat-info__free, .seat-info__selected, .seat-info__reserved {
+        margin: 6px 15px;
+        font-weight: 500;
+    }
+
+    .lux-table .seat-info__free, .seat-info__selected, .seat-info__reserved,
+    .vip-table .seat-info__free, .seat-info__selected, .seat-info__reserved {
+        font-size: 13px;
+    }
+
+    .vip-table .seats button svg {
+        width: 35px;
+        height: 25px;
+    }
+
+    .vip-seats .seats {
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+    .reservation {
+        transform: rotate(90deg);
+        margin: 0;
+        padding: 0;
+    }
+
+    .reservation-table {
+        padding: 15px 0 10px;
+    }
+
+    .ordinary-table {
+        width: 460px;
+        margin: 40px 0 130px;
+    }
+
+    .lux-table {
+        margin: 60px 0;
+        width: 360px;
+    }
+
+    .vip-table {
+        margin: 100px 0 60px;
+        width: 330px;
+    }
+
+    .ordinary-table .seats {
+        margin-bottom: 20px;
+    }
+
+    /* PAGE Films end */
+}
